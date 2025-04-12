@@ -1,0 +1,28 @@
+@import "tailwindcss";
+body {
+  ::-webkit-scrollbar {
+    width: 3px;
+    display: none;
+    background-color: rgb(112, 198, 249);
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0px -1px 13px rgb(112, 198, 249);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(38, 88, 215);
+  }
+}
+#section1 {
+  background-image: url(./assets/section1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#footer {
+  background-image: url(./assets/section1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
